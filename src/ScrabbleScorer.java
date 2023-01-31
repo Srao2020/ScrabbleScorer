@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 
 public class ScrabbleScorer {
-    private static final String ALPHA = "ABCDEFJHIJKLMNOPQRSTUVWXYZ";
+    private static final String ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private static final int[] scores = {1, 3, 3, 2,
             1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10,
             1, 1, 1, 1, 4, 4, 8, 4, 10};
@@ -22,7 +22,7 @@ public class ScrabbleScorer {
      */
 
     public ScrabbleScorer() {
-        dictionary = new ArrayList<>();
+        dictionary = new ArrayList<>(178691);
         for (int i = 0; i < 26; i++)
             dictionary.add(new ArrayList<String>());
         buildDictionary();
