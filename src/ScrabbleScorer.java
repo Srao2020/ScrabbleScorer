@@ -22,7 +22,7 @@ public class ScrabbleScorer {
      */
 
     public ScrabbleScorer() {
-        dictionary = new ArrayList<>(178691);
+        dictionary = new ArrayList<>();
         for (int i = 0; i < 26; i++)
             dictionary.add(new ArrayList<String>());
         buildDictionary();
