@@ -47,7 +47,7 @@ public class ScrabbleScorer {
         } catch (Exception e) {
             System.out.println("Error: " + e);
         }
-        System.out.println(dictionary);
+        //System.out.println(dictionary);
     }
 
     /**
